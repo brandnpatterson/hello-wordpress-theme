@@ -1,7 +1,7 @@
 {
-  "name": "wp-blog",
+  "name": "hello-wordpress-theme",
   "version": "1.0.0",
-  "description": "wp-blog",
+  "description": "hello-wordpress-theme",
   "author": "Brandon Patterson",
   "license": "MIT",
   "scripts": {
