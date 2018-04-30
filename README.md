@@ -25,10 +25,10 @@ git init
 let localhost = 'hello-wordpress-theme.localhost';
 
 browserSync.init({
-    server: {
-        // baseDir: './'
-        proxy: localhost
-    }
+    proxy: localhost,
+    // server: {
+    //     baseDir: './'
+    // }
 });
 ```
 
