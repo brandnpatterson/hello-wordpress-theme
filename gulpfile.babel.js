@@ -68,9 +68,6 @@ gulp.task('watch', () => {
 
 gulp.task('default', ['scripts', 'styles', 'watch'], () => {
     browserSync.init({
-        // proxy: localhost,
-        server: {
-            baseDir: './'
-        }
+        proxy: localhost
     });
 });
